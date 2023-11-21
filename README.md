@@ -1,0 +1,2 @@
+# WolfOfMyStreet
+ My trading bot
