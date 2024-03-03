@@ -1,0 +1,5 @@
+# Ngrok command line to free domain for tunnelling and test: 
+
+d:
+cd \DevTools
+ngrok http --domain=colt-gorgeous-perch.ngrok-free.app 80
