@@ -1,4 +1,4 @@
 pandas==2.1.3
-# for BitGet ccxt==4.3.5
+ccxt==4.3.5
 ta==0.11.0
 flask==3.0.3

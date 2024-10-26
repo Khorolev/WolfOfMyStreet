@@ -7,8 +7,8 @@ sudo apt install python3-pip -y
 # echo Installing virtual environment and packages
 # cd LiveTradingBots/code
 sudo apt-get install python3-venv
-# python3 -m venv .venv
+python3 -m venv .venv
 python3 -m
-# source .venv/bin/activate
+source .venv/bin/activate
 pip install -r ../requirements.txt
 cd ..
