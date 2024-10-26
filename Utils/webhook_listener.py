@@ -32,4 +32,4 @@ def webhook():
         return "Request not allowed", 485
 
 if __name__ == "__main__":
-    app.run(host='13.60.199.63', port=443, debug=True)
+    app.run(host='127.0.0.1', port=443, debug=True)
