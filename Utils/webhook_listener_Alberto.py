@@ -17,7 +17,7 @@ app = Flask(__name__)
 # --------------------------------------------------------------
 # Define endpoint
 # --------------------------------------------------------------
-@app.route("/webhookcallback", methods=["GET", "POST"])
+@app.route("https://d1a4-2003-e3-f34-a300-bc86-9013-cfcd-f55.ngrok-free.app/webhookcallback", methods=["GET", "POST"])
 def hook():
     print(request.data)
     jdata = json.loads(request.data)
